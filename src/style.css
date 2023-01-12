@@ -1,0 +1,45 @@
+* {
+  background-color: burlywood;
+  font-family: 'inter';
+  font-style: inherit;
+}
+
+.counter-text {
+  position: static;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn-mns,
+.btn-pls,
+.btn-zr {
+  margin: 10px;
+  padding: 10px;
+  background-color: #2f8fac;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-pls:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-mns:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-zr:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
